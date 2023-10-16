@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Cliente"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "Nome": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "password"
+    },
+    "datanascimento": {
+      "type": "date"
+    },
+    "telefone": {
+      "type": "biginteger"
+    },
+    "cpf": {
+      "type": "biginteger"
+    },
+    "endereco": {
+      "type": "string"
+    }
+  }
+}
